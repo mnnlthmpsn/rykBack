@@ -29,6 +29,11 @@
     "extra_note": {
       "type": "text",
       "required": false
+    },
+    "fulfilled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
