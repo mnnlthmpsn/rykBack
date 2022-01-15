@@ -4,7 +4,8 @@
   "info": {
     "singularName": "customer",
     "pluralName": "customers",
-    "displayName": "Customer"
+    "displayName": "Customer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,14 @@
       "required": true,
       "maxLength": 10,
       "minLength": 10
+    },
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "other_names": {
+      "type": "string",
+      "required": true
     }
   }
 }
