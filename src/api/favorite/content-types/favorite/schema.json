@@ -4,22 +4,22 @@
   "info": {
     "singularName": "favorite",
     "pluralName": "favorites",
-    "displayName": "favorite"
+    "displayName": "favorite",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "customer": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::customer.customer"
-    },
     "food": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::food.food"
+    },
+    "customer": {
+      "type": "email",
+      "required": true
     }
   }
 }
