@@ -752,6 +752,24 @@
                                               }
                                             }
                                           },
+                                          "foodExtras": {
+                                            "type": "array",
+                                            "items": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "title": {
+                                                  "type": "string"
+                                                },
+                                                "price": {
+                                                  "type": "number",
+                                                  "format": "float"
+                                                }
+                                              }
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -812,6 +830,28 @@
                               },
                               "fulfilled": {
                                 "type": "boolean"
+                              },
+                              "extras": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "price": {
+                                      "type": "number",
+                                      "format": "float"
+                                    }
+                                  }
+                                }
+                              },
+                              "total_price": {
+                                "type": "number",
+                                "format": "float"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -1874,6 +1914,24 @@
                                             }
                                           }
                                         },
+                                        "foodExtras": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "title": {
+                                                "type": "string"
+                                              },
+                                              "price": {
+                                                "type": "number",
+                                                "format": "float"
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -1934,6 +1992,28 @@
                             },
                             "fulfilled": {
                               "type": "boolean"
+                            },
+                            "extras": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "price": {
+                                    "type": "number",
+                                    "format": "float"
+                                  }
+                                }
+                              }
+                            },
+                            "total_price": {
+                              "type": "number",
+                              "format": "float"
                             },
                             "createdAt": {
                               "type": "string",
@@ -2157,6 +2237,10 @@
                       },
                       "fulfilled": {
                         "type": "boolean"
+                      },
+                      "total_price": {
+                        "type": "number",
+                        "format": "float"
                       }
                     }
                   }
@@ -2917,6 +3001,24 @@
                                             }
                                           }
                                         },
+                                        "foodExtras": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "title": {
+                                                "type": "string"
+                                              },
+                                              "price": {
+                                                "type": "number",
+                                                "format": "float"
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -2977,6 +3079,28 @@
                             },
                             "fulfilled": {
                               "type": "boolean"
+                            },
+                            "extras": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "price": {
+                                    "type": "number",
+                                    "format": "float"
+                                  }
+                                }
+                              }
+                            },
+                            "total_price": {
+                              "type": "number",
+                              "format": "float"
                             },
                             "createdAt": {
                               "type": "string",
@@ -3948,6 +4072,24 @@
                                             }
                                           }
                                         },
+                                        "foodExtras": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "title": {
+                                                "type": "string"
+                                              },
+                                              "price": {
+                                                "type": "number",
+                                                "format": "float"
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -4008,6 +4150,28 @@
                             },
                             "fulfilled": {
                               "type": "boolean"
+                            },
+                            "extras": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "price": {
+                                    "type": "number",
+                                    "format": "float"
+                                  }
+                                }
+                              }
+                            },
+                            "total_price": {
+                              "type": "number",
+                              "format": "float"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4267,6 +4431,25 @@
                       },
                       "fulfilled": {
                         "type": "boolean"
+                      },
+                      "extras": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number",
+                              "format": "float"
+                            }
+                          }
+                        }
+                      },
+                      "total_price": {
+                        "type": "number",
+                        "format": "float"
                       },
                       "createdAt": {
                         "type": "string",

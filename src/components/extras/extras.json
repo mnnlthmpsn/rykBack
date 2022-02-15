@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_extras_extras",
+  "info": {
+    "displayName": "extras",
+    "icon": "bone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "default": 0,
+      "min": 0
+    }
+  }
+}

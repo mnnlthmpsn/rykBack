@@ -34,6 +34,17 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "extras": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.extras"
+    },
+    "total_price": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "min": 0
     }
   }
 }

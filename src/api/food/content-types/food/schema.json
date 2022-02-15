@@ -4,7 +4,8 @@
   "info": {
     "singularName": "food",
     "pluralName": "foods",
-    "displayName": "Food"
+    "displayName": "Food",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -40,12 +41,17 @@
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "foodExtras": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.extras"
     }
   }
 }

@@ -421,6 +421,24 @@
                                               }
                                             }
                                           },
+                                          "foodExtras": {
+                                            "type": "array",
+                                            "items": {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "title": {
+                                                  "type": "string"
+                                                },
+                                                "price": {
+                                                  "type": "number",
+                                                  "format": "float"
+                                                }
+                                              }
+                                            }
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -1458,6 +1476,24 @@
                                             }
                                           }
                                         },
+                                        "foodExtras": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "title": {
+                                                "type": "string"
+                                              },
+                                              "price": {
+                                                "type": "number",
+                                                "format": "float"
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -2414,6 +2450,24 @@
                                             }
                                           }
                                         },
+                                        "foodExtras": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "title": {
+                                                "type": "string"
+                                              },
+                                              "price": {
+                                                "type": "number",
+                                                "format": "float"
+                                              }
+                                            }
+                                          }
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3356,6 +3410,24 @@
                                                     }
                                                   }
                                                 }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "foodExtras": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "title": {
+                                                "type": "string"
+                                              },
+                                              "price": {
+                                                "type": "number",
+                                                "format": "float"
                                               }
                                             }
                                           }
