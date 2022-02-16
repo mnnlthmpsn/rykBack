@@ -746,6 +746,24 @@
                                 "type": "string",
                                 "format": "email"
                               },
+                              "extras": {
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "price": {
+                                      "type": "number",
+                                      "format": "float"
+                                    }
+                                  }
+                                }
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1801,6 +1819,24 @@
                               "type": "string",
                               "format": "email"
                             },
+                            "extras": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "price": {
+                                    "type": "number",
+                                    "format": "float"
+                                  }
+                                }
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2032,6 +2068,21 @@
                       "customer": {
                         "type": "string",
                         "format": "email"
+                      },
+                      "extras": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number",
+                              "format": "float"
+                            }
+                          }
+                        }
                       },
                       "createdAt": {
                         "type": "string",
@@ -2819,6 +2870,24 @@
                             "customer": {
                               "type": "string",
                               "format": "email"
+                            },
+                            "extras": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "price": {
+                                    "type": "number",
+                                    "format": "float"
+                                  }
+                                }
+                              }
                             },
                             "createdAt": {
                               "type": "string",
@@ -3784,6 +3853,24 @@
                               "type": "string",
                               "format": "email"
                             },
+                            "extras": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  },
+                                  "price": {
+                                    "type": "number",
+                                    "format": "float"
+                                  }
+                                }
+                              }
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -4026,6 +4113,21 @@
                       "customer": {
                         "type": "string",
                         "format": "email"
+                      },
+                      "extras": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number",
+                              "format": "float"
+                            }
+                          }
+                        }
                       },
                       "createdAt": {
                         "type": "string",

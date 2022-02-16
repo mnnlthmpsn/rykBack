@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "customer": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::customer.customer"
-    },
     "food": {
       "type": "relation",
       "relation": "oneToOne",
@@ -45,6 +40,10 @@
       "default": 0,
       "required": true,
       "min": 0
+    },
+    "customer": {
+      "type": "email",
+      "required": true
     }
   }
 }

@@ -19,6 +19,11 @@
     },
     "customer": {
       "type": "email"
+    },
+    "extras": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.extras"
     }
   }
 }
